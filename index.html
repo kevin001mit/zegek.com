@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZEGEK</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: #000;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 24px;
+  }
+  h1 {
+    font-size: clamp(64px, 18vw, 180px);
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    line-height: 1;
+  }
+  p.domain {
+    margin-top: 16px;
+    font-size: clamp(14px, 3vw, 20px);
+    letter-spacing: 0.35em;
+    color: #888;
+    text-transform: lowercase;
+  }
+  a.contact {
+    margin-top: 48px;
+    display: inline-block;
+    padding: 14px 44px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    transition: background 0.2s, color 0.2s;
+  }
+  a.contact:hover { background: #fff; color: #000; }
+</style>
+</head>
+<body>
+  <h1>ZEGEK</h1>
+  <p class="domain">zegek.com</p>
+  <a class="contact" href="mailto:kwang@zegek.com">Contact</a>
+</body>
+</html>
